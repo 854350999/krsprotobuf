@@ -1,0 +1,11 @@
+
+
+syntax = "proto3";
+
+import "google/protobuf/struct.proto";
+
+
+message GetTrendsReq {
+  string country = 1;
+  string asin = 2;
+}
